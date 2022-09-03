@@ -18,6 +18,11 @@ function even_or_odd(number) {
         return 'Odd'
 }
 
+console.log(even_or_odd(5))
+console.log(even_or_odd(52))
+console.log(even_or_odd(-5))
+console.log(even_or_odd(-6))
+
 //! Plan - Solution 2
 
 //* Currently im using 5 lines of code for a very simple function which i need to make shorter
@@ -27,3 +32,8 @@ function even_or_odd(number) {
 //! Solution 2
 
 const evenOrOdd = (number) => number % 2 === 0 ? 'Even' : 'Odd';
+
+console.log(evenOrOdd(3))
+console.log(evenOrOdd(52))
+console.log(evenOrOdd(-5))
+console.log(evenOrOdd(-6))
