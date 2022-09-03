@@ -35,6 +35,8 @@ function positiveSum(arr) {
   return num;
 }
 
+// Test cases
+
 console.log(positiveSum([1, 2, 3, 4, 5]), 15);
 console.log(positiveSum([1, -2, 3, 4, 5]), 13);
 console.log(positiveSum([]), 0);
@@ -56,6 +58,8 @@ const positiveSumTwo = (arr) =>
   // then if it is i add the value to sum
   // if not i just return the sum value and move to the next iteration of the array
   arr.reduce((sum, n) => (n > 0 ? sum + n : sum), 0);
+
+// Test cases
 
 console.log(positiveSumTwo([1, 2, 3, 4, 5]), 15);
 console.log(positiveSumTwo([1, -2, 3, 4, 5]), 13);

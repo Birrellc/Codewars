@@ -12,16 +12,17 @@
 //! Solution 1
 
 function even_or_odd(number) {
-    if (number % 2 === 0) {
-        return 'Even'
-    } else
-        return 'Odd'
+  if (number % 2 === 0) {
+    return 'Even';
+  } else return 'Odd';
 }
 
-console.log(even_or_odd(5))
-console.log(even_or_odd(52))
-console.log(even_or_odd(-5))
-console.log(even_or_odd(-6))
+// Test cases
+
+console.log(even_or_odd(5));
+console.log(even_or_odd(52));
+console.log(even_or_odd(-5));
+console.log(even_or_odd(-6));
 
 //! Plan - Solution 2
 
@@ -31,9 +32,11 @@ console.log(even_or_odd(-6))
 
 //! Solution 2
 
-const evenOrOdd = (number) => number % 2 === 0 ? 'Even' : 'Odd';
+const evenOrOdd = (number) => (number % 2 === 0 ? 'Even' : 'Odd');
 
-console.log(evenOrOdd(3))
-console.log(evenOrOdd(52))
-console.log(evenOrOdd(-5))
-console.log(evenOrOdd(-6))
+// Test cases
+
+console.log(evenOrOdd(3));
+console.log(evenOrOdd(52));
+console.log(evenOrOdd(-5));
+console.log(evenOrOdd(-6));
